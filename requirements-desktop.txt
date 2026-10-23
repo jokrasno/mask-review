@@ -1,0 +1,3 @@
+# Local editor only. No models, GPU runtime or system Python changes.
+Pillow>=10,<15
+keyring>=25,<26; sys_platform == 'darwin' or sys_platform == 'linux'

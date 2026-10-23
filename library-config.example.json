@@ -1,0 +1,9 @@
+{
+  "format": "mask-review-library-config-v1",
+  "folders": {
+    "library": "REPLACE_WITH_LIBRARY_FOLDER_ID",
+    "originals": "REPLACE_WITH_ORIGINALS_FOLDER_ID",
+    "labels": "REPLACE_WITH_LABELS_FOLDER_ID",
+    "incoming": "REPLACE_WITH_INCOMING_FOLDER_ID"
+  }
+}

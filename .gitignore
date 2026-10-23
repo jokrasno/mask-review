@@ -1,0 +1,62 @@
+# Source-only allowlist. Renamed configs, datasets and unknown files stay ignored.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/DESKTOP_SETUP.md
+!/E2E.md
+!/library-config.example.json
+!/requirements-desktop.txt
+!/desktop.ps1
+!/desktop.sh
+!/desktop_launch.py
+!/Mask Review.command
+!/Setup Mask Review.command
+!/desktop_server.py
+!/desktop_platform.py
+!/credential_store.py
+!/drive_sync.py
+!/desktop.js
+!/desktop.css
+!/server.py
+!/app.js
+!/index.html
+!/style.css
+!/team_store.py
+!/shared_library.py
+!/verify_e2e.py
+# Local Python/runtime files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+# Private user state and credentials. Only the placeholder example belongs here.
+private/
+data/
+drive-sync/
+config/
+output/
+captures/
+logs/
+*.log
+*.sqlite*
+*.dpapi
+*.token
+*token*.json
+*client*.json
+library-config.json
+.env*
+# Do not accidentally publish datasets, archives or models.
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.onnx
+*.pt
+*.pth
+*.safetensors
